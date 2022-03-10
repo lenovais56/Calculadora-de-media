@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <title>Calculadora de notas</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-title">
+      Calculadora de média</h1>
+      <p class="page-subtitle">
+      Descubra qual a sua média de nota de todas as provas!
+      </p>
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+    </div>
+    <div class="notas">
+        <section class="primeiroBimestre">
+            <label for="nota1">Insira a nota do 1º Bimestre</label><br>
+            <input type="number" id="nota1" min='0.0' max='10.0' step="0.1" autofocus/><br>
+        </section>
+
+        <section class="segundoBimestre">
+            <label for="nota2">Insira a nota do 2º Bimestre</label><br>
+            <input type="number" id="nota2" min='0.0' max='10.0' step="0.1" autofocus/><br>
+        </section>
+
+        <section class="terceiroBimestre">
+            <label for="nota3">Insira a nota do 3º Bimestre</label><br>
+            <input type="number" id="nota3" min='0.0' max='10.0' step="0.1" autofocus/><br>
+        </section>
+
+        <section class="quartoBimestre">
+            <label for="nota4">Insira a nota do 4º Bimestre</label><br>
+            <input type="number" id="nota4" min='0.0' max='10.0' step="0.1" autofocus/><br>
+        </section>
+
+        <section class="somaNota">
+          <button type="submit" onclick="mediaDasNotas()">Calcular</button>
+          
+          <h2 id="notaFinal"></h2>
+        </section>
+
+        <section>
+          <h2 id="situacao"></h2>
+        </section>
+    </div>
+
+    <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+    
+  </body>
+</html>
