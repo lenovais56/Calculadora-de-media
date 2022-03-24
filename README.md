@@ -1,4 +1,4 @@
-<h1 align="center" font-size="bold" color-font="red"> TrailerFlix </h1>
+<h1 align="center" font-size="bold" color-font="red"> Calculadora de média </h1>
 
 # Calculadora de média
 
