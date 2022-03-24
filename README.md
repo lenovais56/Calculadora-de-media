@@ -1,7 +1,5 @@
 <h1 align="center" font-size="bold" color-font="red"> Calculadora de média </h1>
 
-# Calculadora de média
-
 <p align="center">
   <img width="600" height="400" src="img/calculadora.gif">
 </p>
